@@ -18,7 +18,8 @@ Dependencias
 
 "react-scripts": "3.4.3"
 
-Para iniciar el proyecto 
+
+### Para iniciar el proyecto 
 
 ```
 npm start
