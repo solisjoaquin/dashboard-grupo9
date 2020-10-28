@@ -4,6 +4,7 @@ Dashboard hecho en React.
 
 Dependencias
 
+```
 "@testing-library/jest-dom": "^4.2.4",
 
 "@testing-library/react": "^9.5.0",
@@ -18,8 +19,10 @@ Dependencias
 
 "react-scripts": "3.4.3"
 
+```
 
 ### Para iniciar el proyecto 
+
 
 ```
 npm start
