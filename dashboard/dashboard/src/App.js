@@ -24,7 +24,7 @@ class App extends Component {
 
   componentDidMount() {
 
-    fetch('http://192.168.1.38:3000/api/products')
+    fetch('http://localhost:3000/api/products')
       .then(response => response.json())
       .then(products => {
 
@@ -56,7 +56,7 @@ class App extends Component {
       })
       .catch(error => console.log(error));
 
-    fetch('http://192.168.1.38:3000/api/users')
+    fetch('http://localhost:3000/api/users')
       .then(response => response.json())
       .then(users => {
         this.setState({
