@@ -6,7 +6,7 @@ export default (props) => {
   console.log(props.users)
 
   return (
-    <div className="">
+    <div className="container-fluid">
       <h1>Listado de usuarios</h1>
 
       <div className="row">
